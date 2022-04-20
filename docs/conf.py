@@ -21,7 +21,7 @@ extensions = [
 ]
 
 # Settings for GitHub actions integration
-rtds_action_github_repo = "dfm/rtds-action"
+rtds_action_github_repo = "licfan/lcf-rtds-action"
 rtds_action_path = "tutorials"
 rtds_action_artifact_prefix = "notebooks-for-"
 rtds_action_github_token = os.environ.get("GITHUB_TOKEN", None)
@@ -60,7 +60,7 @@ html_theme_options = {
     "logo_icon": "&#xe869",
     "color_primary": "blue",
     "color_accent": "light-blue",
-    "repo_url": "https://github.com/dfm/rtds-action",
+    "repo_url": "https://github.com/licfan/lcf-rtds-action",
     "repo_name": "rtds-action",
     "globaltoc_depth": 1,
     "globaltoc_collapse": False,

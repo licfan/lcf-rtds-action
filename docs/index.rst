@@ -96,7 +96,7 @@ For this use case, we can create the workflow
              path: docs/tutorials
 
          - name: Trigger RTDs build
-           uses: dfm/rtds-action@v1
+           uses: licfan/lcf-rtds-action@v1
            with:
              webhook_url: ${{ secrets.RTDS_WEBHOOK_URL }}
              webhook_token: ${{ secrets.RTDS_WEBHOOK_TOKEN }}
@@ -155,7 +155,7 @@ Examples
 --------
 
 Here are some example tutorials! See `the GitHub repository
-<https://github.com/dfm/rtds-action/>`_ for the source of this example site.
+<https://github.com/licfan/lcf-rtds-action/>`_ for the source of this example site.
 
 .. toctree::
    :maxdepth: 2
